@@ -1,11 +1,18 @@
 # tmux-statusbar (Mac)
 
-![statusbar](https://github.com/KeitaNakamura/tmux-statusbar/blob/master/statusbar.png)
+![statusbar](https://github.com/yostos/tmux-statusbar/blob/master/statusbar.png)
+
+This repository was forked from [KeitaNakamura/tmux-statusbar](https://github.com/KeitaNakamura/tmux-statusbar/blob/master/statusbar.png)
 
 ## Installation
 
+```sh
+$ mkdir ~/.tmux && cd ~/.tmux && mkdir plugins && cd plugins
+$ git clone https://github.com/yostos/tmux-statusbar.git
 ```
-set -g @plugin 'KeitaNakamura/tmux-statusbar'
+
+```tmux
+set -g @plugin 'tmux-statusbar'
 ```
 
 in `.tmux.conf` with [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm).
